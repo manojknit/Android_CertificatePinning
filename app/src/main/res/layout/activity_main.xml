@@ -17,11 +17,11 @@
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="271dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentRight="true"
             android:layout_below="@+id/textView1"
-            android:layout_marginTop="34dp"
+            android:layout_marginTop="12dp"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <Button
@@ -54,14 +54,14 @@
             android:text="@string/hello_world"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/btn_connect_google"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="56dp"
-            android:text="" />
+        <!--<TextView-->
+            <!--android:id="@+id/textView3"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignTop="@+id/btn_connect_google"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginTop="56dp"-->
+            <!--android:text="" />-->
 
     </RelativeLayout>
 
