@@ -35,7 +35,7 @@ openssl s_client -connect google.com:443 | openssl x509 -text
 Testing google.com. as cerificate maches, it shows Trusted.
 <img src="images/Android Emulator - Nexus_5X_API_265554 2018-04-07 23-24-16(1).png">
 Testing yahoo.com. as cerificate does not mache, it shows Trusted.
-<img src="images/ Android Emulator - Nexus_5X_API_265554 2018-04-07 23-24-40(1).png">
+<img src="images/Android Emulator - Nexus_5X_API_265554 2018-04-07 23-24-40(1).png">
 
 ## Code: ConnectionTask.java
 ```
