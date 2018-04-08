@@ -1,5 +1,4 @@
-# Android_CertificatePinning
-# Android app to demonstrate Proximity sensor
+# Android app to demonstrate Certificate Pinning
 ####                                                                                                     By Manoj Kumar
 ## Introduction 
 Android mobile app using Certificate Pinning which plays an important role in preventing Man-in-the-middle attack.
