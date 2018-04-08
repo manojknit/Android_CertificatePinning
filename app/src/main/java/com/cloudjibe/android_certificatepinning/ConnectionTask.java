@@ -212,6 +212,9 @@ public class ConnectionTask extends AsyncTask<Void, Void, Object> {
         //HttpsURLConnection.setDefaultSSLSocketFactory(context1.getSocketFactory());
         urlConnection.setDefaultSSLSocketFactory(context1.getSocketFactory());
 
+        //Certificate cert[] = urlConnection.getServerCertificates();
+        //System.out.println(cert[0].getPublicKey()); // get cert public key using code if you dont want to hard code.
+
         return urlConnection.getInputStream();
     }
 
