@@ -20,7 +20,7 @@ In this app I am going to validate pre downloaded google.com certificate with go
 openssl s_client -showcerts -connect google.com:443 </dev/null 2>/dev/null|openssl x509 -outform PEM >mycertfile.pem
 ```
 ### Place following jar file in same directory where you are running command
-/help/bcprov-ext-jdk15on-1.46.jar
+[/help/bcprov-ext-jdk15on-1.46.jar](https://github.com/manojknit/Android_CertificatePinning/blob/master/help/bcprov-ext-jdk15on-1.46.jar)
 
 ### Mac terminal command to generate pem file
 ```
@@ -32,9 +32,9 @@ openssl s_client -connect google.com:443 | openssl x509 -text
 ```
 
 ## Application Code and Screenshots 
-Testing google.com. as cerificate maches, it shows Trusted.
+Testing google.com. as cerificate matches, it shows Trusted.</br>
 <img src="images/Android Emulator - Nexus_5X_API_265554 2018-04-07 23-24-16(1).png">
-Testing yahoo.com. as cerificate does not mache, it shows Trusted.
+Testing yahoo.com. as cerificate does not matche, it shows UnTrusted.</br>
 <img src="images/Android Emulator - Nexus_5X_API_265554 2018-04-07 23-24-40(1).png">
 
 ## Code: ConnectionTask.java
